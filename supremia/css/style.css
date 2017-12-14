@@ -1,0 +1,91 @@
+body,
+section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Verdana;
+}
+
+#header section {
+    width: 49.6%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#right {
+    text-align: center;
+}
+
+#left a {
+    color: gray;
+    font-size: 11px;
+    font-family: verdana;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+#middle {
+    background: url(../img/bg3.jpg)
+}
+
+section.center {
+    width: 50%;
+    margin: 0 auto;
+}
+
+section.center p {
+    color: white;
+    line-height: 1.5;
+    font-size: 13px;
+}
+
+section.center section {
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+section.full {
+    padding: 10px;
+    margin-top: 30px;
+    border-bottom: 5px solid #822222;
+    background: rgba(93, 19, 19, 0.3);
+}
+
+section.full h2 {
+    color: white;
+    font-size: 18px;
+}
+
+section.full h2,
+button {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+section.center img {
+    width: 95%;
+}
+
+button {
+    border: 0;
+    background: rgba(93, 19, 19, 0.5);
+    padding: 7px 12px;
+    color: white;
+}
+
+.top {
+    padding-top: 40px;
+}
+
+h1 {
+    margin: 0px;
+    font-weight: normal;
+    font-size: 28px;
+    color: white;
+}
+
+h1 strong {
+    font-weight: bold;
+}
